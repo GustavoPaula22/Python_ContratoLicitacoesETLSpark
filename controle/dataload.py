@@ -2,6 +2,7 @@ from modelo import configs as con
 import pyodbc
 from pyspark.sql import DataFrame
 
+
 conn_str = f"Driver={{ODBC Driver 17 for SQL Server}};Server={
     con.server};Database={con.database};UID={con.user};PWD={con.senha}"
 
